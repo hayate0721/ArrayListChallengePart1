@@ -53,10 +53,13 @@ public class Main {
 
         String textBlock = """
                 Available actions:
+                
                 0 - to shut down
                 1 - to add item(s) to list (comma delimited list)
                 2 - to remove any items (comma delimited list)
+                
                 Enter a number for which action you want to do:
+                
                 """;
         System.out.print(textBlock + " ");
     }
